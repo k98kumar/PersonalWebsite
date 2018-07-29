@@ -1,0 +1,391 @@
+
+body {
+    background-color: #F4F4F4;
+}
+
+.container {
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans Light', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #1C2954;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#profile {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.profile-img {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-left: 5%;
+    margin-right: 0px;
+    display: initial;
+    padding-right: 20px;
+    max-width: 400px;
+    max-height: auto;
+}
+
+.name {
+    height: 100%;
+    vertical-align: middle;
+    font-size: 400%;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #1C2954;
+}
+
+.oneline {
+    display: none;
+}
+
+.twolines {
+    display: block;
+    visibility: visible;
+}
+
+#icons {
+    background-color: #1C2954;
+    /* width: 75% for 4 icons */
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+
+.icon {
+    display: inline-block;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: linear 0.25s;
+    -webkit-transition: linear 0.25s;
+    -moz-transition: linear 0.25s;
+    -ms-transition: linear 0.25s;
+    -o-transition: linear 0.25s;
+}
+
+.icon:hover {
+    height: 80px;
+}
+
+.logo {
+    margin-top: 5%;
+    height: 90%;
+    width: auto;
+}
+
+.divider {
+    height: 100%;
+    color: #F4F4F4;
+}
+
+.link {
+    color: #4054FD;
+    font-size: 1.0em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: linear 0.25s;
+    -webkit-transition: linear 0.25s;
+    -moz-transition: linear 0.25s;
+    -ms-transition: linear 0.25s;
+    -o-transition: linear 0.25s;
+}
+
+span .link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #000F8F;
+    font-size: 1.02em;
+}
+
+#highlights {
+    height: auto;
+    overflow: auto;
+    text-align: center;
+    /*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    */
+}
+
+.square {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: inline-block;
+    color: #FFFFFF;
+    transition: linear 0.25s;
+    -webkit-transition: linear 0.25s;
+    -moz-transition: linear 0.25s;
+    -ms-transition: linear 0.25s;
+    -o-transition: linear 0.25s;
+    margin: 25px 5px 5px 5px;
+}
+
+.square .project {
+    position: absolute;
+    text-align: center;
+    /*color: #FFF;*/
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    border-radius: 20px;
+    transition: linear 0.25s;
+    -webkit-transition: linear 0.25s;
+    -moz-transition: linear 0.25s;
+    -ms-transition: linear 0.25s;
+    -o-transition: linear 0.25s;
+}
+
+.square:hover .project .project-title {
+    color: #83AAFF;
+}
+
+.square .project .project-title:hover {
+    color: #4054FD;
+}
+
+.square .project .project-description {
+    display: none;
+}
+
+.square:hover .project .project-description {
+    display: block;
+}
+
+.square .project .project-title {
+    transition: linear 0.25s;
+    -webkit-transition: linear 0.25s;
+    -moz-transition: linear 0.25s;
+    -ms-transition: linear 0.25s;
+    -o-transition: linear 0.25s;
+}
+
+.square:hover .project {
+    background: rgba(0,0,0,0.5);
+}
+
+.project-title {
+    padding-top: 20px;
+}
+
+.project-description {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#optum {
+    border-color: transparent;
+    border-width: medium;
+    background: url("../images/optum.png") no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#deere {
+    border-color: green;
+    border-width: medium;
+    background: url("../images/deere1.png") no-repeat center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+#nl {
+    border-color: blue;
+    border-width: medium;
+    background: url("../images/natlang.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#footer {
+    margin-top: 0px;
+    text-align: center;
+}
+
+#center {
+    text-align: center;
+}
+
+@media screen and (min-width: 829px) and (max-width: 1000px) {
+    .container {
+        margin: 60px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 565px) and (max-width: 829px) { /* new */
+    .container {
+        margin: 40px;
+        width: auto;
+    }
+    #profile {
+        display: inline-block;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+    .profile-img {
+        width: 50%;
+        height: auto;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-right: 0px;
+        max-width: none;
+        max-height: none;
+    }
+    .name {
+        font-size: 200%;
+        margin-top: 0px;
+    }
+    .oneline {
+        display: block;
+        visibility: visible;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .twolines {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 564px) { /* Originally 480px */
+    .container {
+        margin: 25px;
+        width: auto;
+    }
+    #profile { /* Added to center the profile div */
+        display: inline-block;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+    .profile-img {
+        width: 80%;
+        height: auto;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-right: 0px;
+        max-width: none;
+        max-height: none;
+    }
+    .name {
+        font-size: 200%;
+        margin-top: 0px;
+    }
+    .oneline {
+        display: block;
+        visibility: visible;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .twolines {
+        display: none;
+    }
+    #icons {
+        margin-top: 0px;
+    }
+    .icon {
+        height: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .icon:hover {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .container {
+        margin: 25px;
+        width: auto;
+    }
+    #profile { /* Added to center the profile div */
+        display: inline-block;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+    .profile-img {
+        width: 80%;
+        height: auto;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-right: 0px;
+        max-width: none;
+        max-height: none;
+    }
+    .name {
+        font-size: 200%;
+        margin-top: 0px;
+    }
+    .oneline {
+        display: block;
+        visibility: visible;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .twolines {
+        display: none;
+    }
+
+    #icons {
+        margin-top: 0px;
+    }
+    .icon {
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .icon:hover {
+        height: 50px;
+    }
+}
